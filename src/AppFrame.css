@@ -1,0 +1,41 @@
+/* AppFrame.css */
+
+.frame {
+  width: 100vwvw;
+  height: auto;
+  background-color: #ffffff;
+  aspect-ratio: 440 / 956;
+  margin: auto;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.box {
+  width: 100vw;
+  height: auto;
+  aspect-ratio: 440 / 70;
+  background-color: #006463;
+  display: flex; /* Enables Flexbox */
+  flex-direction: row;
+  justify-content: space-between; /* Space between the two images */
+  align-items: center; /* Vertically center images */
+  padding: 0 18px; /* Horizontal padding */
+}
+
+.firstImage {
+  width: 70vw;
+  height: auto;
+  aspect-ratio: 300 / 35.45;
+  margin-top: 18px;
+  margin-bottom: 16.55px;
+}
+
+.secondImage {
+  width: 10vw;
+  height: auto;
+  aspect-ratio: 48 / 48;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  margin-right: 36px;
+}
